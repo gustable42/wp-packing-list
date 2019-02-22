@@ -54,7 +54,7 @@ class WC_PIP_Document_Pick_List extends WC_PIP_Document_Packing_List {
 		$this->name_plural = __( 'Pick Lists', 'woocommerce-pip' );
 
 		$this->table_headers = array(
-			'sku'      => __( 'SKU' , 'woocommerce-pip' ),
+			'order-id' => __( 'Order ID' , 'woocommerce-pip' ),
 			'product'  => __( 'Product' , 'woocommerce-pip' ),
 			'details'  => __( 'Details', 'woocommerce-pip' ),
 			'quantity' => __( 'Quantity' , 'woocommerce-pip' ),
@@ -64,7 +64,7 @@ class WC_PIP_Document_Pick_List extends WC_PIP_Document_Packing_List {
 		);
 
 		$this->column_widths = array(
-			'sku'      => 18,
+			'order-id' => 18,
 			'product'  => 30,
 			'details'  => 25,
 			'quantity' => 10,
